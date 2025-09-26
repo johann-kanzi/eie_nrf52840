@@ -1,0 +1,24 @@
+a. git commit
+    -creates new version
+
+b. git branch <branch-name>
+    -creates a new branch
+
+c. git checkout -b <branch-name>
+    -select a branch
+        -b: creates the branch as well
+
+d. git pull
+    -update and merge commits from origin
+
+e. git push
+    -uploads and merge commits to origin
+
+f. git merge <branch-name>
+    -merge the current branch with other branch and creates a new commit
+
+g. git rebase <branch-name>
+    -combine the current branch commit into the latest commit 
+
+h. git fetch
+    -download the latest updates from origin without merging
