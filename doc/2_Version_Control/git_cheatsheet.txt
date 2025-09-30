@@ -15,10 +15,10 @@ e. git push
     -uploads and merge commits to origin
 
 f. git merge <branch-name>
-    -merge the current branch with other branch and creates a new commit
+    -merge the current branch into other branch while maintaining branch history
 
 g. git rebase <branch-name>
-    -combine the current branch commit into the latest commit 
+    -combine the current branch commit into other branch and make it look like a branch never happened and the two commits were made in series 
 
 h. git fetch
     -download the latest updates from origin without merging
