@@ -13,7 +13,7 @@ d. git pull
 
 e. git push
     -uploads and merge commits to origin
-
+    -"-u <branch>" for creating new branch in remote
 f. git merge <branch-name>
     -merge the current branch into other branch while maintaining branch history
 
@@ -22,3 +22,13 @@ g. git rebase <branch-name>
 
 h. git fetch
     -download the latest updates from origin without merging
+
+i. git add <file_name>
+    -always do this before commiting
+    -file_name = . for all files
+
+j. git status
+    -check status of commits
+
+k. git log
+    -history of commits
